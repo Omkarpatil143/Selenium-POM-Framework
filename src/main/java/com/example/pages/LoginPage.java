@@ -31,8 +31,8 @@ public class LoginPage {
     //completeLogin
     public void FinalLogin(String name ,String Pass )
     {
-        EnterUserName("Admin");
-        EnterPassword("admin123");
+        EnterUserName(name);
+        EnterPassword(Pass);
         clickLogin();
     }
 }
